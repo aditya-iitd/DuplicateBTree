@@ -23,7 +23,7 @@ public void delete(Key key) throws IllegalKeyException; /* Deletes all occurrenc
 public String toString(); /* Prints all the tree in the format listed below */
 ```
 
-#### toString() method works as follows-:
+#### toString() method works as follows (INORDER TRAVERSAL) -:
 ![Demo](https://user-images.githubusercontent.com/26283007/32026270-47d34e24-ba01-11e7-90ae-2b43ec72d5ed.png)
 
 ## Authors
