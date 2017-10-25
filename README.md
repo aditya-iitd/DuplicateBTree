@@ -5,7 +5,7 @@ same key (at times with exactly the same value).
 
 ###  DuplicateBTree Interface
 
-```
+```java
 public BTree(int b) throws bNotEvenException; /* Initializes an empty b-tree. Assume b is even. */
 
 public boolean isEmpty(); /* Returns true if the tree is empty. */
@@ -22,6 +22,9 @@ public void delete(Key key) throws IllegalKeyException; /* Deletes all occurrenc
 
 public String toString(); /* Prints all the tree in the format listed below */
 ```
+
+#### toString() method works as follows-:
+![Demo](https://user-images.githubusercontent.com/26283007/32026270-47d34e24-ba01-11e7-90ae-2b43ec72d5ed.png)
 
 ## Authors
 
